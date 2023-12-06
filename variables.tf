@@ -101,15 +101,3 @@ variable "destination_container_name" {
   type        = string
   default     = ""
 }
-
-variable "tags" {
-  description = "tags to apply to all resources"
-  type        = map(string)
-  default = {
-    Application     = "Nasuni Analytics Connector with Azure Cognitive Search"
-    Developer       = "Nasuni"
-    PublicationType = "Nasuni Labs"
-    Version         = "V 0.2"
-
-  }
-}
